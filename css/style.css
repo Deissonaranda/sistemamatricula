@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #254336;
+    
+}
+
+.main-cont {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-header {
+    width: 100%;
+    height: auto;
+    text-align: center;  
+}
+
+.desc-header img {
+    width: 100%; /* Ajusta el porcentaje según el tamaño deseado */
+    max-width: 800px; /* O establece un tamaño máximo específico en píxeles */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que el margen automático funcione correctamente */
+    border: 10px solid #072712; /* Añade un borde de 5 píxeles de color blanco */
+    border-radius: 10px; /* Añade esquinas redondeadas, ajusta según sea necesario */
+}
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif; /* Fuente general para la página */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.cont-header {
+    width: 90%; /* Ajuste el ancho para que no ocupe el 100% y se vea más centrado */
+    min-height: 250px; /* Altura mínima ajustable según contenido */
+    padding: 30px;
+    margin: 20px auto; /* Márgenes superior e inferior de 20px y centrado horizontalmente */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #072712; /* Añade un borde de 5 píxeles de color blanco */
+    background: linear-gradient(135deg, #DAD3BE, #C4B6A6); /* Fondo con gradiente */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+.desc-header p {
+    font-size: 5em;
+    color: #000000; /* Color del texto */
+    font-family: 'Georgia', serif; /* Fuente del texto */
+    margin: 10px 0; /* Margen vertical del texto */
+}
+
+
+
+.cont-header h1 {
+    color: #336666;
+}
+
+.cont-header form {
+    width: 350px;
+    height: auto;
+    border: 1px solid #336666;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+.cont-header form label {
+    display: block;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+}
+
+#loginusuario , #loginadmin {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: .7em;
+    border: none;
+    border-radius: 8px;
+    background: #153744;
+    color: #fff;
+    cursor: pointer;
+}
+
+.alert {
+    color: red;
+}
